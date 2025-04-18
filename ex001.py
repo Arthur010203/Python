@@ -1,2 +1,2 @@
-String= 'Hello Word!'
+String= 'Hello Universe!'
 print(String)
