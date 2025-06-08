@@ -1,4 +1,4 @@
-palavras =  (
+'''palavras =  (
     'banana', 'computador', 'livro', 'cadeira',
     'garrafa', 'telefone', 'janela', 'mochila'
 )
@@ -14,4 +14,15 @@ for palavra in palavras:
     for letra in palavra:
         if letra.lower() in vogais:
             print(letra, end =' ')
-print('\n' + '-' * 40)
+print('\n' + '-' * 40)'''
+
+# Versão do Guanabara
+
+palavras = ('aprender', 'programar', 'linguagem', 'python',
+            'curso', 'gratis', 'estudar', 'praticar',
+            'trabalhar', 'mercado', 'programador', 'futuro')
+for p in palavras:
+    print(f'\nNa palavra {p.upper()} temos ', end='')
+    for letra in p:
+        if letra.lower() in 'aeiou':
+            print(letra, end= '')
