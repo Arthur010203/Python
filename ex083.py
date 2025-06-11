@@ -1,4 +1,4 @@
-# Leitura da expressão
+''''# Leitura da expressão
 expressao = input("Digite uma expressão com parênteses: ")
 
 # Pilha para verificar o balanceamento dos parênteses
@@ -19,4 +19,22 @@ for simbolo in expressao:
 if len(pilha) == 0:
     print("A expressão está com os parênteses corretos!")
 else:
-    print("A expressão está com os parêntese incorretos!")
+    print("A expressão está com os parêntese incorretos!")'''
+
+# Versão do Guanabara
+
+expr = str(input('Digite a expressão: '))
+pilha = []
+for símb in expr:
+    if símb == '(':
+        pilha.append('(')
+    elif símb == ')':
+        if len(pilha) > 0:
+            pilha.pop()
+        else:
+            pilha.append(')')
+            break
+if len(pilha) == 0:
+    print('Sua expressão está válida!')
+else:
+    print('Sua expressão está errada!')
