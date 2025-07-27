@@ -38,7 +38,7 @@ def somaPar(lista):
     for valor in lista:
         if valor % 2 == 0:
             soma += valor
-    print(f'Somando os valores pares de {lista}, temos {soma}')
+    print(f' Somando os valores pares de {lista}, temos {soma} ')
 
 números = list()
 sorteia(números)
