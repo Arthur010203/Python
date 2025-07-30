@@ -20,4 +20,3 @@ def fatorial(num, show=False):
 # Exemplo de uso:
 n = int(input("Digite um número: "))
 print(fatorial(n, show=True)) # Coloque show=False se não quiser mostrar o cálculo
-a
