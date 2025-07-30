@@ -14,4 +14,4 @@ if gols.isnumeric():
 else:
     gols = 0
 
-ficha(nome, gols)
+ficha(nome, gols )
