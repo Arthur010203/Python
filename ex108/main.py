@@ -14,4 +14,4 @@ from ex108 import moeda
 p = float(input('Digite o preço: R$'))
 print(f'A metade de {p} é {moeda.moeda(p)} é {moeda.moeda(moeda.metade(p))}')
 print(f'O dobro de {p} é {moeda.moeda(p)} é {moeda.moeda(moeda.dobro(p))}')
-print(f'Aumentar 10%, temos {moeda.moeda(moeda.aumentar(p, 10))}')
+print(f'Aumentar 10%, tem-se {moeda.moeda(moeda.aumentar(p, 10))}')
