@@ -2,7 +2,7 @@ import requests
 
 def testa_site(url):
     try:
-        resposta = requests.get(url, timeout=5)
+        resposta = requests.get(url,  timeout=5)
         if resposta.status_code == 200:
             print(f"O site {url} está online!")
         else:
